@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pokemon/src/pages/list.dart';
+import 'package:pokemon/pages/pokemonList.dart';
 
 void main() {
   runApp(MyApp());
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.red,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: List(title: 'Pokemon'),
+      home: PokemonList(),
     );
   }
 }
